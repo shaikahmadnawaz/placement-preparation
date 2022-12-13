@@ -20,9 +20,9 @@ class KConcatenationMaximumSum {
       curmax = Math.max(curmax, cursum);
 
     }
-    long max = Math.max(curmax, premax + sufmax + Math.max(0, presum * (k - 2))); // prefix sum(presum) will be the sum
-                                                                                  // of the complete array after entire
-                                                                                  // traversal...
+    long max = Math.max(curmax, premax + sufmax + Math.max(0, presum * (k - 2)));
+    // prefix sum(presum) will be the sum of the complete array after entire
+    // traversal.
     return (int) ((k == 1 ? curmax : max) % mod);
   }
 }
