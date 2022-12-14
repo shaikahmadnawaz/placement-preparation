@@ -1,4 +1,4 @@
-public class Solution {
+public class SetMatrixZeroes {
   public void setZeroes(int[][] matrix) {
     boolean fr = false, fc = false;
     for (int i = 0; i < matrix.length; i++) {
