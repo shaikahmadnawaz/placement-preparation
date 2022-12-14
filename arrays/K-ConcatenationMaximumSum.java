@@ -1,5 +1,3 @@
-package arrays;
-
 class KConcatenationMaximumSum {
   public int kConcatenationMaxSum(int[] arr, int k) {
     int mod = 1000000007;
