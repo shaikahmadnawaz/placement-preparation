@@ -7,6 +7,6 @@ class Solution {
       res += mat[n - 1 - i][i]; // Secondary diagonals are row + column = n-1!
     }
     return n % 2 == 0 ? res : res - mat[n / 2][n / 2]; // if n is a odd number, that mean we have added the center
-                                                       // element twice!
+    // element twice!
   }
 }
