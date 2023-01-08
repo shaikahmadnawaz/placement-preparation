@@ -1,3 +1,5 @@
+package strings;
+
 class Solution {
   public int lengthOfLastWord(String s) {
     String sp = s.trim();
